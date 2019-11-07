@@ -6,3 +6,6 @@ we can request openid scope.  Which will return, in addition to an access token,
 Unlike the access token, which requires a call to /userinfo to decode, the id token can be
 decoded without contacting the server.  This repo demonstrate how this decoding can be done
 in node.
+
+Start by obtaining an id token from https://developers.google.com/oauthplayground/, then
+follow the instructions in app.js
